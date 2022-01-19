@@ -1,0 +1,201 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F8FF;
+    
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.container > section {
+    margin-bottom: 60px;
+}
+.header-box{
+    background-image: url(../images/wp4437227.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-position: center;
+}
+.header-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .burger-bar {
+    display: none;
+}
+
+.header-container .navbar .nav-ul {
+    display: flex;
+    gap: 30px;
+
+}
+.header-container .navbar .nav-ul a {
+    color: white;
+}
+.watch_now{
+    padding: 80px 30px;
+}
+.watch_now h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+.watch_now h3 {
+    font-size:26px;
+    margin-bottom: 10px;
+}
+.watch_now p{
+    font-size: 16px;
+
+}
+.watch_now a {
+    display: inline-block;
+    color: white;
+    font-size: 24px ;
+    border-radius: 40px;
+    border: 1px solid #0EB7D2;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.more {
+    color: #627791;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.movies img {
+    width: 100%;
+}
+
+.movies .movie_item {
+    position: relative;
+}
+
+.movies .movie_item a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -26px;
+    margin-left: -26px;
+    opacity: 0;
+    transition: opacity 80ms linear;
+}
+
+.movies .movie_item:hover a {
+    opacity: 1;
+}
+
+.movies .movie_item a img {
+    width: 52px;
+    height: 52px;
+}
+.download {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.download > div {
+    flex: 1;
+    line-height: 1.6;
+}
+.download img {
+    width: 80%;
+}
+.downloadapp {
+    color: white;
+    padding: 8px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4F27A9;
+}
+.download ul li {
+    color: #627791;
+    font-size: 16px;
+}
+.info {
+    background-color:#331E60;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 30px;
+    border-radius: 10px;
+    
+}
+.info a {
+    color: white;
+    line-height: 1.7;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #5d3eac;
+    color: rgb(237, 234, 241);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #38307a;
+  }
+  .contact h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  
+  footer {
+      background-color: #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      padding: 0 30px;
+      border-radius: 10px;
+  }
+
+  footer .icon-facebook {
+      color: lightblue;
+  }
+  footer .icon-instagram {
+    color: lightcoral;
+
+}
+footer .icon-twitter {
+    color: rgb(63, 182, 212);
+
+}
+
+footer .fab {
+    margin-left: 10px;
+    font-size: 20px;
+}

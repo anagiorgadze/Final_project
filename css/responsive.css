@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+    .header-container .navbar .nav-ul {
+        display: none;
+    }
+
+    .header-container .burger-bar {
+        display: block;
+    }
+
+    .movies {
+        grid-template-columns: auto;
+    }
+
+    .download {
+        display: block;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
